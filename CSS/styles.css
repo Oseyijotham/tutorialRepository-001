@@ -1,0 +1,438 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color:#FFFFFF;
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+}
+p{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #595959;
+}
+
+li{
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #595959;
+}
+
+h4{
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+color: #000000;
+}
+
+.work-experience .subtitle{
+color: #FB6D3A;
+}
+.work-experience2 .subtitle{
+color:#FB6D3A;
+}
+
+.sidebar{
+background: #1E2939;
+width: 370px;
+padding-top: 40px;
+color:#FFFFFF;
+
+}
+
+.main-content{
+width: calc(100% - 370px)
+}
+
+.sidebar .content{
+margin-top: 50px;
+margin-left: 40px;  
+}
+
+.contacts p {
+color:#FFFFFF; 
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+margin: 8px 0px 0px 0px;
+}
+
+.contacts .last-child{
+margin: 0px;    
+}
+
+.contacts a{
+color:#FFFFFF;
+opacity: 0.5;  
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+}
+
+.contacts .phone-number{
+text-decoration: none;
+}
+
+.contacts h3{
+margin: 0px;   
+}
+
+.sidebar .tech-skills{
+margin: 47px 0px 0px;    
+}
+
+.tech-skills h3{
+margin: 47px 0px 0px 0px;    
+}
+
+.tech-skills li {
+color:#FFFFFF;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+}
+
+.tech-skills ul {
+list-style: none;   
+padding-left: 0px; 
+margin: 8px 0px 0px 0px;
+}
+
+.tech-skills ul li::before {
+content: "\2022"; 
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+color: #FB6D3A;
+display: inline-block;
+width: 10px;
+}
+
+.soft-skills h3{
+margin: 44px 0px 0px 0px;    
+}
+
+
+
+.soft-skills ul{
+list-style: none;   
+padding-left: 0px; 
+margin: 8px 0px 0px 0px;
+}
+
+.soft-skills li {
+color:#FFFFFF;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+}
+
+.soft-skills ul li::before {
+content: "\2022"; 
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+color: #FB6D3A;
+display: inline-block;
+width: 10px;
+}
+
+/*Main Content Styles*/
+.main-content{
+padding: 102px 217px 107px 88px;    
+}
+
+.summary{
+margin-bottom: 40px;    
+}
+.summary > h4 {
+margin: 0px;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+color: #000000;
+}
+
+.summary > h2 {
+font-weight: 700;
+font-size: 45px;
+line-height: 55px;  
+margin: 19px 0px 24px 0px; 
+color: #000000;
+}
+
+.summary > p {
+margin: 0px;    
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #595959; ;
+}
+
+.projects > h3 {
+margin: 0px;    
+}
+
+.projects > ol {
+margin: 8px 0px 1.5px 0px;  
+padding: 0px;  
+counter-reset: item;
+}
+
+ol > li {
+margin: 0px;
+padding: 0 0 0 2em;
+text-indent: -2em; 
+list-style-type: none; 
+counter-increment: item;  
+}
+
+ol > li:before {
+display: inline-block;
+width: 1em;
+padding-right: 13px;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;  
+color: #000000;  
+text-align: right;
+content: counter(item) ".";
+}
+
+.projects > ol span{
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;  
+color: #000000;  
+}
+
+.projects > a {
+margin-top: 8px;   
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+text-decoration-line: underline;
+color: #595959
+}
+
+.work-experience {
+margin: 51px 0px 0px 0px;    
+}
+
+.work-experience > h3 {
+font-weight: 700;
+font-size: 22px;
+line-height: 27px;
+color: #000000;
+margin-bottom: 12px;
+}
+
+.work-experience > .first {
+    
+}
+
+.work-experience > .experience > h4 {
+margin-top: 0px;   
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+margin-bottom: 11px;
+}
+
+.work-experience > .experience > p {
+margin-top: 0;    
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;  
+margin-bottom: 8px;
+color: #A8A8A8;
+}
+
+.work-experience > .experience > ul {
+    list-style: none;   
+    padding-left: 0px; 
+    margin-top: 0px;
+    }
+    
+    .work-experience > .experience > ul li::before {
+    content: "\2022"; 
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    display: inline-block;
+    width: 10px;
+    }
+
+    .work-experience > .experience > li {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+        }
+
+        
+
+
+
+                .work-experience > .experience2 > h4 {
+                    margin-top: 16px;   
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 20px;
+                    margin-bottom: 11px;
+                    }
+                    
+                    .work-experience > .experience2 > p {
+                    margin-top: 0;    
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 15px;  
+                    margin-bottom: 8px;
+                    color: #A8A8A8;
+                    }
+                    
+                    .work-experience > .experience2 > ul {
+                        list-style: none;   
+                        padding-left: 0px; 
+                        margin-top: 0px;
+                        }
+                        
+                        .work-experience > .experience2 > ul li::before {
+                        content: "\2022"; 
+                        font-weight: 700;
+                        font-size: 14px;
+                        line-height: 24px;
+                        color: #595959;
+                        display: inline-block;
+                        width: 10px;
+                        }
+                    
+                        .work-experience > .experience2 > li {
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 24px;
+                        color: #595959;
+                            }
+                    
+                            .work-experience > .experience2 > ul {
+                                list-style: none;   
+                                padding-left: 0px; 
+                                margin-top: 0px;
+                                }
+                                
+                                .work-experience > .experience2 > ul li::before {
+                                content: "\2022"; 
+                                font-weight: 700;
+                                font-size: 14px;
+                                line-height: 24px;
+                                color: #595959;
+                                display: inline-block;
+                                width: 10px;
+                                }
+                            
+                                .work-experience > .experience2 > li {
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 24px;
+                                color: #595959;
+                                    }              
+
+
+
+
+                                    
+
+  
+
+                                    .work-experience > .experience3 > h4 {
+                                        margin-top: 0px;   
+                                        font-weight: 700;
+                                        font-size: 16px;
+                                        line-height: 20px;
+                                        margin-bottom: 11px;
+                                        }
+                                        
+                                        .work-experience > .experience3 > p {
+                                        margin-top: 0;    
+                                        font-weight: 400;
+                                        font-size: 12px;
+                                        line-height: 15px;  
+                                        margin-bottom: 8px;
+                                        color: #A8A8A8;
+                                        }
+                                        
+                                        .work-experience > .experience3 > ul {
+                                            list-style: none;   
+                                            padding-left: 0px; 
+                                            margin-top: 0px;
+                                            }
+                                            
+                                            .work-experience > .experience3 > ul li::before {
+                                            content: "\2022"; 
+                                            font-weight: 700;
+                                            font-size: 14px;
+                                            line-height: 24px;
+                                            color: #595959;
+                                            display: inline-block;
+                                            width: 10px;
+                                            }
+                                        
+                                            .work-experience > .experience3 > li {
+                                            font-weight: 400;
+                                            font-size: 14px;
+                                            line-height: 24px;
+                                            color: #595959;
+                                                }
+                                        
+                                                .work-experience > .experience3 > ul {
+                                                    list-style: none;   
+                                                    padding-left: 0px; 
+                                                    margin-top: 0px;
+                                                    }
+                                                    
+                                                    .work-experience > .experience3 > ul li::before {
+                                                    content: "\2022"; 
+                                                    font-weight: 700;
+                                                    font-size: 14px;
+                                                    line-height: 24px;
+                                                    color: #595959;
+                                                    display: inline-block;
+                                                    width: 10px;
+                                                    }
+                                                
+                                                    .work-experience > .experience3 > li {
+                                                    font-weight: 400;
+                                                    font-size: 14px;
+                                                    line-height: 24px;
+                                                    color: #595959;
+                                                        }   
+                                      
+                                                        
+                    .work-experience2{
+                    margin-top: 43;    
+                    margin-bottom: 0;
+                    }
+
+                    .work-experience2 > h3{
+margin-top: 12;
+margin-bottom: 0;
+                    }
+
+                    .work-experience2 > h4{
+                        margin-top: 11;
+                        margin-bottom: 0;
+                                            }   
+                                            
+                                            .work-experience2 > h5{
+                                                margin-top: 12;
+                                                margin-bottom: 0;
+                                                                    }     
+                                                                    .work-experience2 > p{
+                                                                        margin-top: 12;
+                                                                        margin-bottom: 0;
+                                                                                            }                                                                               
